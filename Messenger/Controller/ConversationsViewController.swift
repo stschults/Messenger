@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CoversationsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
