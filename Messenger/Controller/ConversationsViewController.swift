@@ -12,7 +12,6 @@ class CoversationsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
         //DatabaseManager.shared.test()
         
     }
