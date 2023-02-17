@@ -27,6 +27,9 @@
 		291CD525299C0A4D0032E06E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 291CD524299C0A4D0032E06E /* GoogleService-Info.plist */; };
 		291CD527299CC0B40032E06E /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CD526299CC0B40032E06E /* DatabaseManager.swift */; };
 		291CD52A299CF9490032E06E /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 291CD529299CF9490032E06E /* MessageKit */; };
+		29D2EF93299FA7DF005E3765 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 29D2EF92299FA7DF005E3765 /* RealmSwift */; };
+		29D2EF96299FA814005E3765 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 29D2EF95299FA814005E3765 /* JGProgressHUD */; };
+		29D2EF99299FA841005E3765 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 29D2EF98299FA841005E3765 /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D2EF93299FA7DF005E3765 /* RealmSwift in Frameworks */,
+				29D2EF96299FA814005E3765 /* JGProgressHUD in Frameworks */,
+				29D2EF99299FA841005E3765 /* SDWebImage in Frameworks */,
 				291CD51F299C03880032E06E /* FirebaseDatabase in Frameworks */,
 				291CD523299C03880032E06E /* FirebaseStorage in Frameworks */,
 				291CD51D299C03880032E06E /* FirebaseAuth in Frameworks */,
@@ -182,6 +188,9 @@
 				291CD520299C03880032E06E /* FirebaseFirestore */,
 				291CD522299C03880032E06E /* FirebaseStorage */,
 				291CD529299CF9490032E06E /* MessageKit */,
+				29D2EF92299FA7DF005E3765 /* RealmSwift */,
+				29D2EF95299FA814005E3765 /* JGProgressHUD */,
+				29D2EF98299FA841005E3765 /* SDWebImage */,
 			);
 			productName = Messenger;
 			productReference = 291CD4ED299A92510032E06E /* Messenger.app */;
@@ -214,6 +223,9 @@
 			packageReferences = (
 				291CD51B299C03880032E06E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				291CD528299CF9480032E06E /* XCRemoteSwiftPackageReference "MessageKit" */,
+				29D2EF91299FA7DF005E3765 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				29D2EF94299FA814005E3765 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				29D2EF97299FA841005E3765 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 291CD4EE299A92510032E06E /* Products */;
 			projectDirPath = "";
@@ -489,6 +501,30 @@
 				kind = branch;
 			};
 		};
+		29D2EF91299FA7DF005E3765 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		29D2EF94299FA814005E3765 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		29D2EF97299FA841005E3765 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -516,6 +552,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 291CD528299CF9480032E06E /* XCRemoteSwiftPackageReference "MessageKit" */;
 			productName = MessageKit;
+		};
+		29D2EF92299FA7DF005E3765 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29D2EF91299FA7DF005E3765 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		29D2EF95299FA814005E3765 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29D2EF94299FA814005E3765 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		29D2EF98299FA841005E3765 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29D2EF97299FA841005E3765 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
