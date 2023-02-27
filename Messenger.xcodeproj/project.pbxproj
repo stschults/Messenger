@@ -30,6 +30,7 @@
 		29D2EF93299FA7DF005E3765 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 29D2EF92299FA7DF005E3765 /* RealmSwift */; };
 		29D2EF96299FA814005E3765 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 29D2EF95299FA814005E3765 /* JGProgressHUD */; };
 		29D2EF99299FA841005E3765 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 29D2EF98299FA841005E3765 /* SDWebImage */; };
+		29D2EF9B299FB19A005E3765 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2EF9A299FB19A005E3765 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		291CD517299BB6BA0032E06E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		291CD524299C0A4D0032E06E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		291CD526299CC0B40032E06E /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		29D2EF9A299FB19A005E3765 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +133,9 @@
 		291CD507299A92F50032E06E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				291CD4F4299A92510032E06E /* ConversationsViewController.swift */,
 				291CD516299A976F0032E06E /* Login */,
+				291CD4F4299A92510032E06E /* ConversationsViewController.swift */,
+				29D2EF9A299FB19A005E3765 /* ChatViewController.swift */,
 				291CD512299A95B90032E06E /* NewConversationViewController.swift */,
 				291CD50E299A958E0032E06E /* PhotoViewerViewController.swift */,
 				291CD514299A95C80032E06E /* ProfileViewController.swift */,
@@ -265,6 +268,7 @@
 				291CD4F1299A92510032E06E /* AppDelegate.swift in Sources */,
 				291CD515299A95C80032E06E /* ProfileViewController.swift in Sources */,
 				291CD4F3299A92510032E06E /* SceneDelegate.swift in Sources */,
+				29D2EF9B299FB19A005E3765 /* ChatViewController.swift in Sources */,
 				291CD50F299A958E0032E06E /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
